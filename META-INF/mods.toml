@@ -1,0 +1,21 @@
+modLoader="lowcodefml"
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="epic"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+displayName="EPIC POWERS"
+description='''
+aadiciona super poderes de super herois
+'''
+
+[[dependencies.epic]]
+modId = "palladium"
+mandatory = true
+versionRange = "[4.4.1,)"
+ordering = "NONE"
+side = "BOTH"
